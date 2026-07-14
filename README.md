@@ -1,6 +1,6 @@
-# AI Builders 解读 01 · Fable Agent Toolkit
+# AI Builders 工具箱 01｜设计可控的 Agent 工作流
 
-这是一份从第一期《A Field Guide to Fable》解读中整理出的公开工具包，包含：
+这套工具帮助你在 Agent 动手前找盲点、对齐需求和探索方案，在执行中记录偏差，完成后检查人是否仍理解关键决策。它从第一期《A Field Guide to Fable》解读中整理而来，包含：
 
 1. 6 组可直接复制的 Agent 提示词；
 2. 3 个用于持续制作 AI Builders 解读内容的 Codex Skills；
@@ -12,7 +12,7 @@
 
 ## 先从工具箱开始
 
-打开 [Fable Agent 六组提示词](toolkits/fable-agent-prompts.md)，可以直接使用：
+打开 [Agent 工作流六组提示词](toolkits/agent-workflow-prompts.md)，可以直接使用：
 
 | 工具 | 适合解决的问题 |
 | --- | --- |
@@ -45,8 +45,8 @@
 先克隆仓库：
 
 ~~~bash
-git clone https://github.com/Elisedai1013/ai-builders-fable-toolkit.git
-cd ai-builders-fable-toolkit
+git clone https://github.com/Elisedai1013/ai-builders-toolkit-01-agent-workflow.git
+cd ai-builders-toolkit-01-agent-workflow
 ~~~
 
 再把需要的 Skill 文件夹复制到 Codex Skills 目录：
@@ -70,12 +70,12 @@ cp -R skills/ai-builder-talk-to-script "$HOME/.codex/skills/"
 ## 仓库结构
 
 ~~~text
-ai-builders-fable-toolkit/
+ai-builders-toolkit-01-agent-workflow/
 ├── README.md
 ├── LICENSE
 ├── NOTICE.md
 ├── toolkits/
-│   └── fable-agent-prompts.md
+│   └── agent-workflow-prompts.md
 └── skills/
     ├── ai-builder-talk-to-script/
     ├── archive-ai-builders-episode/
