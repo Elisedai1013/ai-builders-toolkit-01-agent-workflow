@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI Builder 口播生成"
-  short_description: "把 AI Builder 逐字稿与 PPT 变成有证据、有钩子、有方法的中文口播"
-  default_prompt: "使用 $ai-builder-talk-to-script，根据这份 AI Builder 逐字稿和 PPT 生成中文自媒体解读口播稿。"

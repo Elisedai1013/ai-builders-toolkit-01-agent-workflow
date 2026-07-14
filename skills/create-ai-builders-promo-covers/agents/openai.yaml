@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI Builders 宣传封面"
-  short_description: "统一生成 AI Builders 解读的 3:4 与 4:3 宣传封面"
-  default_prompt: "Use $create-ai-builders-promo-covers to generate the 3:4 and 4:3 covers for this AI Builders episode."

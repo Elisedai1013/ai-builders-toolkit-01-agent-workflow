@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI Builders 单期归档"
-  short_description: "整理、确认并审计每期 AI Builders 正式资料"
-  default_prompt: "使用 $archive-ai-builders-episode 整理并审计本期正式资料夹，草稿留在加工区，候选文件先让我确认。"
